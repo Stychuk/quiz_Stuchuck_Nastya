@@ -73,7 +73,7 @@ const questions = [
     }
 ];
 
-const obj = {}
+const obj = {};
 
 const getData = () => {
     formAnswers.textContent = 'LOAD';
@@ -85,7 +85,7 @@ const getData = () => {
     }, 2000);
 }
 
-const obj = {};
+//const obj = {};
 
 const inputs = [...formAnswers.elements]
     .filter(elem => elem.checked)
